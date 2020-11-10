@@ -1,0 +1,65 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: lightblue;
+  margin: 0;
+  margin-left: 270px;
+}
+
+#bro{
+  background-image: url("bro.jpg");
+  background-position: 0px 700px;
+  text-align: center;
+}
+
+#bro h1{
+  padding: 3%;
+  color: white;
+  font-size: 100px;
+}
+
+img {
+  max-width: 500px;
+  max-height: 250px;
+  margin-left: 20px;
+}
+
+
+h1   {color: blue;}
+p    {color: red;}
+h2   {color: black; margin-left: 30px;}
+h4 {margin-left: 30px;}
+
+.sidenav {
+  height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: cornflowerblue;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  
+  text-decoration: none;
+  font-size: 30px;
+  color: darkblue;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 20px; 
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
